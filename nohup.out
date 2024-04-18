@@ -1,0 +1,67 @@
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+[15/Apr/2024 15:28:04] "GET /todos/ HTTP/1.1" 200 3490
+[15/Apr/2024 15:28:06] "GET /todos/ HTTP/1.1" 200 3490
+[15/Apr/2024 15:28:32] "GET / HTTP/1.1" 302 0
+[15/Apr/2024 15:28:32] "GET /todos/ HTTP/1.1" 200 3490
+[15/Apr/2024 15:28:35] "POST /todos/24/update HTTP/1.1" 302 0
+[15/Apr/2024 15:28:35] "GET /todos/ HTTP/1.1" 200 3527
+[15/Apr/2024 15:28:39] "POST /todos/23/update HTTP/1.1" 302 0
+[15/Apr/2024 15:28:39] "GET /todos/ HTTP/1.1" 200 3564
+[15/Apr/2024 15:28:44] "POST /todos/add/ HTTP/1.1" 302 0
+[15/Apr/2024 15:28:44] "GET /todos/ HTTP/1.1" 200 4142
+Performing system checks...
+
+April 15, 2024 - 15:27:49
+Django version 5.0.4, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+[15/Apr/2024 15:29:58] "POST /todos/25/update HTTP/1.1" 302 0
+[15/Apr/2024 15:29:58] "GET /todos/ HTTP/1.1" 200 4179
+[15/Apr/2024 15:30:01] "POST /todos/25/update HTTP/1.1" 302 0
+[15/Apr/2024 15:30:01] "GET /todos/ HTTP/1.1" 200 4142
+[15/Apr/2024 15:30:02] "POST /todos/24/update HTTP/1.1" 302 0
+[15/Apr/2024 15:30:02] "GET /todos/ HTTP/1.1" 200 4105
+[15/Apr/2024 15:30:03] "POST /todos/23/update HTTP/1.1" 302 0
+[15/Apr/2024 15:30:03] "GET /todos/ HTTP/1.1" 200 4068
+[15/Apr/2024 15:30:08] "POST /todos/25/update HTTP/1.1" 302 0
+[15/Apr/2024 15:30:08] "GET /todos/ HTTP/1.1" 200 4105
+[15/Apr/2024 15:30:10] "POST /todos/24/update HTTP/1.1" 302 0
+[15/Apr/2024 15:30:10] "GET /todos/ HTTP/1.1" 200 4142
+[15/Apr/2024 15:30:11] "POST /todos/23/update HTTP/1.1" 302 0
+[15/Apr/2024 15:30:11] "GET /todos/ HTTP/1.1" 200 4179
+[15/Apr/2024 15:30:14] "GET /todos/ HTTP/1.1" 200 4179
+[15/Apr/2024 15:30:15] "GET /todos/ HTTP/1.1" 200 4179
+[15/Apr/2024 15:30:33] "POST /todos/add/ HTTP/1.1" 302 0
+[15/Apr/2024 15:30:33] "GET /todos/ HTTP/1.1" 200 4760
+[15/Apr/2024 15:30:35] "POST /todos/26/update HTTP/1.1" 302 0
+[15/Apr/2024 15:30:35] "GET /todos/ HTTP/1.1" 200 4797
+[15/Apr/2024 15:30:47] "POST /todos/add/ HTTP/1.1" 302 0
+[15/Apr/2024 15:30:48] "GET /todos/ HTTP/1.1" 200 5381
+[15/Apr/2024 15:30:54] "GET /todos/27/delete HTTP/1.1" 302 0
+[15/Apr/2024 15:30:54] "GET /todos/ HTTP/1.1" 200 4797
+[15/Apr/2024 15:30:55] "GET /todos/25/delete HTTP/1.1" 302 0
+[15/Apr/2024 15:30:55] "GET /todos/ HTTP/1.1" 200 4182
+[15/Apr/2024 15:30:56] "GET /todos/24/delete HTTP/1.1" 302 0
+[15/Apr/2024 15:30:56] "GET /todos/ HTTP/1.1" 200 3561
+[15/Apr/2024 15:30:58] "GET /todos/26/delete HTTP/1.1" 302 0
+[15/Apr/2024 15:30:59] "GET /todos/ HTTP/1.1" 200 2943
+[15/Apr/2024 15:31:00] "GET /todos/23/delete HTTP/1.1" 302 0
+[15/Apr/2024 15:31:00] "GET /todos/ HTTP/1.1" 200 2328
+[15/Apr/2024 15:33:58] "POST /todos/add/ HTTP/1.1" 302 0
+[15/Apr/2024 15:33:58] "GET /todos/ HTTP/1.1" 200 2905
